@@ -141,7 +141,7 @@ def generate_pdf(data):
     pdf.ln(2)  # Add some space before the next section
 
 
-    # Projects (if you have this section)
+    # Projects
     pdf.chapter_title('PROJECTS')
     
     pdf.set_font('Times', '', 10)
@@ -155,7 +155,7 @@ def generate_pdf(data):
     project_date = data['proj_info'].get('proj_date', 'N/A')
     date_width = pdf.get_string_width(data['proj_info']['proj_date'])
     pdf.set_x(210 - date_width - 10)  # 210 mm is A4 width, 10 mm for right margin
-    pdf.cell(date_width, 10, internship_date, ln=True)
+    pdf.cell(date_width, 10, project_date, ln=True)
 
     pdf.ln(-2)
 
