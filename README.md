@@ -16,14 +16,14 @@ Detail the steps on how to use the program, including running the script and int
    pip install openai
       ```
 2. Install the fpdf library by running the following command in your terminal.
-       ```
+   ```
    pip install fpdf
-      ```
-3. Open main.py and run the program.
-4. A GUI (graphical user interface) will pop up and you can fill out your information in the corresponding entries.
-5. Once you've completed the form, press the submit button to download your resume in a PDF form.
-6. Check your downloaded resume to make sure all the information is formatted correctly.
-7. If it needs any editing, you can just change the information on the GUI and press the submit button again. Otherwise, you can close the GUI window yourself. 
+   ```
+4. Open main.py and run the program.
+5. A GUI (graphical user interface) will pop up and you can fill out your information in the corresponding entries.
+6. Once you've completed the form, press the submit button to download your resume in a PDF form.
+7. Check your downloaded resume to make sure all the information is formatted correctly.
+8. If it needs any editing, you can just change the information on the GUI and press the submit button again. Otherwise, you can close the GUI window yourself. 
 
 # Example usage steps
 python main.py
