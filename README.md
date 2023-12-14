@@ -11,8 +11,12 @@ This program is designed to help users create compelling resumes by taking their
 
 ## Usage
 Detail the steps on how to use the program, including running the script and interacting with the GUI.
+1. Open main.py and run the program.
+2. A GUI (graphical user interface) will pop up and you can fill out your information in the corresponding entries.
+3. Once you've completed the form, press the submit button to download your resume in a PDF form.
+4. Check your downloaded resume to make sure all the information is formatted correctly.
+5. If it needs any editing, you can just change the information on the GUI and press the submit button again. Otherwise, you can close the GUI window yourself. 
 
-\```
 # Example usage steps
 python main.py
 \```
