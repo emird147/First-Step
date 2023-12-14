@@ -53,10 +53,10 @@ def collect_data(callback):
     root.title("Resume Generator")
     
     # Personal Information Section
-    personal_info_frame = ttk.LabelFrame(root, text="Personal Information")
-    ttk.Label(personal_info_frame, text="Name:").grid(row=0, column=0, sticky=tk.W)
-    name_entry = ttk.Entry(personal_info_frame)
-    name_entry.grid(row=0, column=1)
+    personal_info_frame = ttk.LabelFrame(root, text="Personal Information")   # container 
+    ttk.Label(personal_info_frame, text="Name:").grid(row=0, column=0, sticky=tk.W)   # label widget
+    name_entry = ttk.Entry(personal_info_frame)         # accompanying entry widget for user to input the necessary information
+    name_entry.grid(row=0, column=1)        # grid method to position the entry's display
 
     ttk.Label(personal_info_frame, text="Email:").grid(row=0, column=5, sticky=tk.W)
     email_entry = ttk.Entry(personal_info_frame)
